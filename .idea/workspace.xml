@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a9c60b5f-2760-4d03-a801-f939853a5680" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analit-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analit-Service/src/main/java/AnalitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analit-Service/src/main/java/configs/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analit-Service/src/main/java/controllers/AnalitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analit-Service/src/main/java/entities/Statistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analit-Service/src/main/java/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analit-Service/src/main/java/repositories/AnalitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analit-Service/src/main/java/services/AnalitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Analit-Service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/webmarket/WebAuthServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/webmarket/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/webmarket/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/webmarket/controllers/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/webmarket/converters/UserConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/webmarket/dto/JwtRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/webmarket/dto/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/webmarket/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/webmarket/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/webmarket/repositories/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/webmarket/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/webmarket/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/java/webmarket/utils/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Auth-Service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cart-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cart-Service/src/main/java/webmarket/CartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cart-Service/src/main/java/webmarket/configs/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cart-Service/src/main/java/webmarket/configs/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cart-Service/src/main/java/webmarket/configs/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cart-Service/src/main/java/webmarket/controllers/CartsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cart-Service/src/main/java/webmarket/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cart-Service/src/main/java/webmarket/integrations/ClientFeignProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cart-Service/src/main/java/webmarket/integrations/ProductServiceIntegration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cart-Service/src/main/java/webmarket/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cart-Service/src/main/java/webmarket/model/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cart-Service/src/main/java/webmarket/services/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cart-Service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/CoreServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/configs/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/configs/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/configs/PayPalConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/configs/WebServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/controllers/CategoriesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/controllers/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/controllers/PayPalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/controllers/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/converters/CategoryConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/converters/OrderConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/converters/OrderItemsConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/converters/ProductConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/endpoints/CategoryEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/endpoints/ProductsEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/entities/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/entities/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/enums/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/exceptions/CartServiceIntegrationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/exceptions/FieldsValidationError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/exceptions/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/integrations/CartServiceIntegration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/integrations/ClientFeignAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/properties/CartServiceIntegrationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/repositories/CategoriesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/repositories/OrdersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/repositories/specifications/ProductSpecifications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/services/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/services/PayPalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/soap/categories/CategorySoap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/soap/categories/GetCategoryByTitleRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/soap/categories/GetCategoryByTitleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/soap/categories/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/soap/categories/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/soap/products/GetAllProductsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/soap/products/GetAllProductsResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/soap/products/GetProductByNameRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/soap/products/GetProductByNameResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/soap/products/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/soap/products/ProductSoap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/soap/products/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/java/webmarket/validators/ProductValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/resources/category.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/resources/products.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core-Service/src/main/resources/secret.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/java/webmarket/FrontApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/static/cart/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/static/cart/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/static/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/static/order_pay/order_pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/static/order_pay/order_pay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/static/orders/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/static/orders/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/static/store/store.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/static/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/static/user/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/static/user/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/static/welcome/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-Service/src/main/resources/static/welcome/welcome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GateWay/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GateWay/src/main/java/webmarket/GatewayApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GateWay/src/main/java/webmarket/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GateWay/src/main/java/webmarket/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GateWay/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/webmarket/analitic/StatisticDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/webmarket/auth/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/webmarket/cart/CartDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/webmarket/cart/CartItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/webmarket/core/CategoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/webmarket/core/OrderDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/webmarket/core/OrderDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/webmarket/core/OrderItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/webmarket/core/ProductDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/webmarket/core/ProfileDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/webmarket/dto/StringResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/webmarket/exceptions/AppError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/webmarket/exceptions/BadConnectionServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/webmarket/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyway/analit/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyway/analit/sql/V1__analit.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyway/kafka/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyway/products/V1__init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyway/products/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyway/start-migration.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyway/users/V1__security.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flyway/users/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2h0Xkw3hq4yC1hJGUa4vaBBhFXH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/GB/Final/GateWay/src/main/java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GB\Final\GateWay\src\main\java" />
+      <recent name="D:\GB\Final\GateWay\src\main\resources" />
+      <recent name="D:\GB\Final\GateWay" />
+      <recent name="D:\GB\Final\Front-Service\src\main\java" />
+      <recent name="D:\GB\Final\Front-Service\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="FinalGB" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="FinalGB" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9c60b5f-2760-4d03-a801-f939853a5680" name="Changes" comment="" />
+      <created>1716732116270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716732116270</updated>
+    </task>
+    <servers />
+  </component>
+</project>
